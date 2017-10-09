@@ -10,7 +10,12 @@ namespace Week2_Day4
     {
         static void Main(string[] args)
         {
+            Cat mittens = new Cat();
 
+            mittens.Name = "Mittens";
+            {
+
+            }
 
 
 

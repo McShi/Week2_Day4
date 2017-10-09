@@ -13,9 +13,17 @@ namespace Week2_Day4
             Cat mittens = new Cat();
 
             mittens.Name = "Mittens";
-            {
 
-            }
+            Cat secondCat = new Cat("Oz", 3, "orange and white");
+
+            Console.WriteLine(mittens.Name);
+            Console.WriteLine(secondCat.Name);
+
+            mittens.Eat();
+
+            mittens.Eat();
+
+            mittens.WorkOut();
 
 
 
@@ -41,7 +49,7 @@ namespace Week2_Day4
             //Main
             //{
             //Squid          jerry             =      new           Squid();
-              class/type  object/name/variable       keyword       constructor
+            //class/type  object/name/variable       keyword       constructor
             //}
        
         }
